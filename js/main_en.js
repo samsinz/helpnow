@@ -1305,7 +1305,7 @@
     /****** GDPR policy ******/
     var gdprExpireDays  = 30;
     var gdprCookieName  = 'litho-gdpr-policy';
-    var gdprHTML = '<div class="gdpr-wrapper"><div class="gdpr-container bg-extra-dark-gray text-center"><div class="gdpr-content alt-font text-medium text-white"> Notre site utilise des cookies. En continuant votre visite, vous acceptez notre <a href="legal_fr.html" target="_blank" class="text-decoration-line-bottom text-white">politique de confidentialité</a></div> <a href="javascript:void(0);" class="btn btn-fancy btn-very-small btn-white gdpr-policy-button">OK</a></div></div>';
+    var gdprHTML = '<div class="gdpr-wrapper"><div class="gdpr-container bg-extra-dark-gray text-center"><div class="gdpr-content alt-font text-medium text-white"> Our site uses cookies. By continuing to our site you are agreeing to our cookie <a href="legal_en.html" target="_blank" class="text-decoration-line-bottom text-white">privacy policy</a></div> <a href="javascript:void(0);" class="btn btn-fancy btn-very-small btn-white gdpr-policy-button">Got it</a></div></div>';
     if( getCookie( gdprCookieName ) != 'shown' ) {
          $( 'body' ).append( gdprHTML );
     }
